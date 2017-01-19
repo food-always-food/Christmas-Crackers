@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8" />
+    <title>Christmas Cracker Time</title>
+  	{% load staticfiles %}
+  	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type = "text/css"/>
+  	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi5qd5AvIQJ9pjyQsHmBAKZDO6k7mMxME&libraries=places"></script>
+  <body style="background:#eee">
+    <div class="container-fluid">
+      <div style="padding-top:10px" class="row">
+        <div style="background:#fff !important" class="well col-md-4 col-md-push-4 col-xs-12">
+          <nav role="navigation">
+            <center>
+              <h2> Christmas Cracker Time!</h2>
+              <p> care for some chirstmas cracker jokes and trivia fun? <p>
+              <ul class="nav nav-pills nav-stacked">
+                <br>
+                <li class="active"><a href="/joke/">Joke</a></li>
+                <br>
+                <li class="active"><a href="/trivia/">Trivia</a></li>
+              </ul>
+            </center>
+          </nav>
+        </div>
+  	  </div>
+    </div>
+  </body>
+</html>
