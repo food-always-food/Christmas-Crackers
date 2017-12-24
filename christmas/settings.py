@@ -25,7 +25,7 @@ SECRET_KEY = 's2eit8&7&g7*1rb0ht_kzk^yhq1)z(n$!izaj_z9dh5rdo)yg7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["localhost","christmas-crackers.duckdns.org"]
 
 
 # Application definition
